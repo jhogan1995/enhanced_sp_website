@@ -1,0 +1,32 @@
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Helvetica", serif;
+  line-height: 1.5;
+}
+
+/* Main Header Section */
+
+#mainheader {
+  background-color: #666565;
+  color: white;
+  margin: 0;
+}
+
+#mainheader .container {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.main-logo img {
+  height: 5rem;
+}
+
+#mainheader nav {
+  display: inline-block;
+}
